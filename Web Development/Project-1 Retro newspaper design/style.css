@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+    font-family: domain;
+    src: url(./Fonts/Domaine.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: canopee;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: auto;
+    background-color: #1c1c19;
+    overflow-x: hidden;
+}
+
+#page1{
+   height: 135vh;
+   background-color: #C3BBB1;
+}
+
+#page2{
+    height: 200vh;
+    width: 100%;
+    background-color: #ff9318;
+}
+
+#nav{
+    height: 110px;
+    width: 100%;
+    padding: 0 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+#nav img{
+    height: 28px;
+    width: 30%;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+#nav h5{
+    font-family: Editorial-Ultralight;
+    font-size: 16.524px;
+    font-weight: 400;
+    width: 30%;
+}
+
+#nav i{
+    font-size: 28px;
+    width: 30%;
+    text-align: right;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+#elems{
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+
+#elem-left{
+    width: 29%;
+    height: 100%;
+    display:flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+#elem-center{
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid #595959;
+    border-right: 1px solid #595959;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#elem-right{
+    width: 30%;
+    height: 100%;
+    display:flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+#elem-left #image-div{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem-right #image-div{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+}
+
+#image-div:hover img{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#elems h4{
+    font-family: canopee;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#elem-left h4 span{
+    font-family: canopee;
+    background-color: #c03f13;
+    color: #cdc6be;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 5px 3px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#elem-left p{
+    font-family: "PP Editorial New";
+    font-size: 25px;
+    font-weight: 100;
+    color: #1d1d1b;
+}
+
+#elem-right h4{
+    font-size: 36px;
+}
+
+#elem-right h4 span{
+    font-family: canopee;
+    background-color: #c03f13;
+    color: #cdc6be;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 5px 3px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#elem-right p{
+    font-family: "PP Editorial New";
+    font-size: 25px;
+    font-weight: 100;
+    color: #1d1d1b;
+}
+
+#elem-center h2{
+    font-size: 80px;
+    font-weight: 100;
+}
+
+#elem-center h3{
+    font-family: "PP Editorial New";
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+#elem-center h2{
+    font-size: 85px;
+    font-weight: 100;
+}
+
+#elem-center h6{
+    font-family: "PP Editorial New";
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.head-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    width: 96%;
+    margin: auto;
+    height: 600px;
+}
+
+.head-text h1{
+    font-weight: 400;
+    letter-spacing: -.05em;
+    font-size: 35vw;
+    text-align: center;
+    font-family: canopee;
+    color: #C4BCB3;
+    background-color: #1d1d1b;
+    padding: 20px;
+    padding-right: 50px;
+    
+}
+
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#page2-left{
+    height: 100%;
+    width: 30%;
+    background-color: red;
+}
+
+#page2-left h2{
+    font-size: 150px;
+    font-family: canopee;
+    text-align: center;
+    line-height: 160px;
+}
+
+#page2-left h2 span{
+    font-size: 210px;
+}
+
+#page2-right{
+    height: 100%;
+}
