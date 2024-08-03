@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,900;1,800&display=swap');
+
+:root {
+    --primary: #6636E1;
+    --secondary: #BBBBBB;
+    --background-1: #111111, #1E1E1E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    width: 100dvw;
+    height: 10vh;
+    background: #141414;
+    box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.06);
+}
+
+#logo img{
+    height: 35px;
+}
+
+#middle-nav {
+    display: flex;
+    gap: 150px;
+}
+
+#middle-nav a{
+    text-transform: uppercase;
+    color: #EEF3F6;
+    font-family: Goldman;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.home{
+    position: relative;
+}
+
+.home::after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    bottom: 0;
+    background: #46D5B3;
+    height: 3px;
+    width: 0;
+    transition: all ease 0.50s;
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+.Aboutme{
+    position: relative;
+}
+
+.Aboutme::after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    bottom: 0;
+    background: #46D5B3;
+    height: 3px;
+    width: 0;
+    transition: all ease 0.50s;
+}
+
+.Aboutme:hover::after {
+    width: 100%;
+}
+
+.works{
+    position: relative;
+}
+
+.works::after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    bottom: 0;
+    background: #46D5B3;
+    height: 3px;
+    width: 0;
+    transition: all ease 0.50s;
+}
+
+.works:hover::after {
+    width: 100%;
+}
+
+.contact{
+    position: relative;
+}
+
+.contact::after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    bottom: 0;
+    background: #46D5B3;
+    height: 3px;
+    width: 0;
+    transition: all ease 0.50s;
+}
+
+.contact:hover::after {
+    width: 100%;
+}
+
+#last-nav a {
+    text-decoration: none;
+}
+
+#linkdin{
+    font-size: 29px;
+    color: white;
+}
+
+#linkdin:hover{
+    color: #46D5B3;
+}
+
+#instagram {
+    font-size: 30px;
+    color: white;
+}
+#instagram:hover {
+    color: #46D5B3;
+}
+
+#github {
+    font-size: 32px;
+    color: white;
+}
+
+#github:hover {
+    color: #46D5B3;
+}
+
+#last-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#menu {
+    display: none;
+}
+
+/* section-1 starts here! */
+
+#section-1 {
+    position: relative;
+    background: linear-gradient(281deg, #111 0.25%, #1E1E1E 97.87%);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+#left {
+    margin-left: 5%;
+    position: absolute;
+    width: 70%;
+}
+
+#left .head-1 {
+    color: #FFFF;
+    font-family: Goldman;
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+
+#left .head-1 span {
+    color: #46D5B3;
+    font-family: Goldman;
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+
+.head-1 span {
+    color: #FFFF;
+}
+
+.para-1 {
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+    padding-top: 30px;
+    color: #FFFF;
+    font-family: Goldman;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.para-1 span {
+    padding-left: 10px;
+    font-size: 2.5rem;
+}
+
+#buttons {
+    padding-top: 50px;
+}
+
+#buttons .button-2 {
+    color: white;
+    background: linear-gradient(#141414, #141414) padding-box,
+    linear-gradient(95deg, rgba(102,54,225,1) 0%, rgba(21,199,150,1) 100%)border-box;
+    padding: 10px 60px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#buttons .button-1 {
+    color: white;
+    background: linear-gradient(#141414, #141414) padding-box,
+    linear-gradient(95deg, rgba(102,54,225,1) 0%, rgba(21,199,150,1) 100%) border-box;
+    padding: 10px 60px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* section-2 starts here! */
+
+#section-2 {
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    background: linear-gradient(300deg, #111 0%, #1D1D1D 100%);
+    border-top: 1.5px solid rgb(112, 112, 112);
+} 
+
+.section-2-bg-image {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    mix-blend-mode: luminosity;
+    opacity: 13%;
+}
+
+.head-2 {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    z-index: 5;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.head-2 h1 {
+    color: #FFF;
+    font-family: Goldman;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aboutUs-underline {
+    display: flex;
+    align-items: center;
+    top: 120px;
+    left: -100px;
+    position: absolute;
+    background: #717171;
+    width: 900px;
+    height: 5.325px;
+}
+
+.aboutUs-star-shape {
+    position: absolute;
+    top: 98px;
+    left: 830px;
+    height: 50px;
+}
+
+.iAmBurhanuddin {
+    width: 1270px;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    color: #BBB;
+    font-family: Goldman;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 157.185% */
+}
+
+.iAmBurhanuddin span {
+    padding-right: 5px;
+    color: var(--primary);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.bg-for-glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.glass-box {
+    position: absolute;
+    bottom: 70px;
+    width: 1700px;
+    height: 800px;
+    border-radius: 55.572px;
+    border: 1.389px solid rgba(255, 255, 255, 0.17);
+    background: linear-gradient(103deg, rgba(255, 255, 255, 0.07) 14.33%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(27.78622055053711px);
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    html , body{
+        height: 100%;
+        width: 100%;
+    }
+
+    #nav-bar {
+        padding: 0 40px;
+        width: 100%;
+        height: 15dvw;
+        background: #141414;
+        box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.06);
+    }
+    
+    #logo img{
+        height: 27px;
+    }
+
+    #middle-nav {
+        display: none;
+    }
+
+    #last-nav {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        color: white;
+        font-size: 25px;
+    }
+
+    #section-1 {
+        position: relative;
+        background: linear-gradient(281deg, #111 0.25%, #1E1E1E 97.87%);
+        width: 100%;
+        height: 430px;
+    }
+
+    #left {
+        margin: 10% 5%;
+        position: absolute;
+        width: 90%;
+    }
+
+    #left .head-1 {
+        color: #FFFF;
+        font-family: Goldman;
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+
+    #left .head-1 span {
+        color: #46D5B3;
+        font-family: Goldman;
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+
+    .para-1 {
+        display: flex;
+        align-items: center;
+        line-height: 25px;
+        padding-top: 20px;
+        color: #FFFF;
+        font-family: Goldman;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .para-1 span {
+        padding-left: 10px;
+        font-size: 1.7rem;
+    }
+
+    #buttons {
+        padding-top: 40px;
+        display: flex;
+    }
+
+    #buttons .button-1 {
+        margin-right: 15px;
+        cursor: pointer;
+        font-size: 0.8rem;
+    }
+
+    #buttons .button-2 {
+        cursor: pointer;
+        font-size: 0.8rem;
+    }
+
+
+    /* section-2 starts here! */
+
+    #section-2 {
+        width: 100%;
+        height: 1400px;
+        position: relative;
+        background: linear-gradient(300deg, #111 0%, #1D1D1D 100%);
+        border-top: 1px solid rgb(112, 112, 112);
+    } 
+
+    .section-2-bg-image {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        overflow: hidden;
+        mix-blend-mode: luminosity;
+        opacity: 13%;
+    }
+
+    .head-2 svg {
+        height: 40px;
+        width: 90px;
+    }
+
+    .head-2 h1 {
+        color: #FFF;
+        font-family: Goldman;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .aboutUs-underline {
+        display: flex;
+        align-items: center;
+        top: 100px;
+        left: -100px;
+        position: absolute;
+        background: #717171;
+        width: 220px;
+        height: 5px;
+    }
+
+    .aboutUs-star-shape {
+        display: none;
+        position: absolute;
+        top: 98px;
+        left: 830px;
+        height: 50px;
+    }
+
+    .iAmBurhanuddin {
+        width: 300px;
+        position: absolute;
+        top: 17%;
+        left: 5%;
+        color: #BBB;
+        font-family: Goldman;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px; /* 157.185% */
+    }
+
+    .iAmBurhanuddin span {
+        padding-right: 5px;
+        color: var(--primary);
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .bg-for-glass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .glass-box {
+        position: absolute;
+        bottom: 70px;
+        width: 200px;
+        height: 800px;
+        border-radius: 55.572px;
+        border: 1.389px solid rgba(255, 255, 255, 0.17);
+        background: linear-gradient(103deg, rgba(255, 255, 255, 0.07) 14.33%, rgba(255, 255, 255, 0.00) 100%);
+        backdrop-filter: blur(27.78622055053711px);
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}

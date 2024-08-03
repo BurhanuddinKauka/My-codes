@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+
+    <style>
+
+        body {
+            display: flex;
+        }
+
+        div {
+            margin-bottom: 7px;
+            margin-right: 10px;
+        }
+        .box1 {
+            padding: 10px;
+            height: 90px;
+            width: 100px;
+            color: aliceblue;
+            background-image: linear-gradient(to bottom, teal, skyblue);
+        }
+
+        .box2 {
+            padding: 10px;
+            height: 90px;
+            width: 100px;
+            color: aliceblue;
+            background-image: linear-gradient(to top, teal, skyblue);
+        }
+        
+        .box3 {
+            padding: 10px;
+            height: 90px;
+            width: 100px;
+            color: aliceblue;
+            background-image: linear-gradient(to left, teal, skyblue);
+        }
+        .box4 {
+            padding: 10px;
+            height: 90px;
+            width: 100px;
+            color: aliceblue;
+            background-image: linear-gradient(to right, teal, skyblue);
+        }
+
+        .box5 {
+            padding: 10px;
+            height: 90px;
+            width: 100px;
+            color: aliceblue;
+            background-image: linear-gradient(to top right, teal, skyblue);
+        }
+
+        .box6 {
+            padding: 10px;
+            height: 90px;
+            width: 100px;
+            color: aliceblue;
+            background-image: linear-gradient(to bottom left, teal, skyblue);
+        }
+
+        .radial-gradient {
+            padding: 10px;
+            color: white;
+            height: 90px;
+            width: 100px;
+            background-image: radial-gradient(red, blue);
+            background-image: radial-gradient(yellow 5%, blue 10%, red 50%);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box1">This gradient goes top to bottom</div>
+    <div class="box2">This gradient goes bottom to top</div>
+    <div class="box3">This gradient goes right to left</div>
+    <div class="box4">This gradient goes left to right</div>
+    <div class="box5">This gradient goes top right  to bottom</div>
+    <div class="box6">This gradient goes bottom left to bottom</div>
+
+    <div class="radial-gradient">This is radial-gradient</div>
+</body>
+</html>

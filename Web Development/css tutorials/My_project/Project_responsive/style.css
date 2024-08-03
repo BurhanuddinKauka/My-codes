@@ -1,0 +1,270 @@
+/* first box */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.result {
+    text-align: center;
+    background-image: linear-gradient(to top, #2E28D2, #6644FE);
+    border-radius: 20px;
+    color: white;
+    height: auto;
+    width: 320px;
+    position: relative;
+    box-shadow: 1px 1px 15px 2px rgba(35, 52, 209, 0.103);
+    z-index: 50;
+    left: 290px;
+}
+
+.result h3 {
+    padding-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.result .circle {
+    background-image: linear-gradient(to bottom, #4C23CA, #4734F0);
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Update the alignment of the text within .circle */
+.result .circle .first-no {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+/* Style for the "of 100" span */
+.result .circle .second-no {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.459);
+}
+
+.result h2 {
+    margin-bottom: 15px;
+}
+
+.result p {
+    padding: 0px 40px 45px 40px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+
+
+
+/* Second Box */
+
+.summary {
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    background: white;
+    border-radius: 20px;
+    color: white;
+    height: 439px;
+    width: 600px;
+    position: relative;
+    /* left: 35%; */
+    box-shadow: 1px 1px 20px 5px rgba(26, 41, 179, 0.055);
+    
+}
+
+.summary .wrapper h3 {
+    color: black;
+    font-weight: 900;
+}
+
+.summary .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+/* Data 1 */
+
+.summary .data-1 {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 23px;
+    width: auto;
+    background-color: rgba(255, 49, 49, 0.048);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.summary .data-1 h4 {
+    color: rgb(233, 94, 94);
+    padding-right: 70px;
+    font-weight: 100;
+    letter-spacing: 0.50px;
+}
+
+.summary .data-1 i {
+    padding-right: 15px;
+    font-weight: 100;
+}
+
+.summary .data-1 .marks {
+    font-weight: 600;
+}
+
+.summary .data-1 .marks .first-no {
+    color: black;
+}
+
+.summary .data-1 .marks  .second-no {
+    color: rgb(129, 129, 129);
+}
+
+
+
+/* data 2 */
+
+.summary .data-2 {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 23px;
+    width: auto;
+    background-color: #ffb11510;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.summary .data-2 h4 {
+    color: #ffb728;
+    padding-right: 70px;
+    font-weight: 100;
+    letter-spacing: 0.50px;
+}
+
+.summary .data-2 i {
+    padding-right: 15px;
+    font-weight: 100;
+}
+
+.summary .data-2 .marks {
+    font-weight: 600;
+}
+
+.summary .data-2 .marks .first-no {
+    color: black;
+}
+
+.summary .data-2 .marks  .second-no {
+    color: rgb(148, 148, 148);
+}
+
+
+/* data 3 */
+
+.summary .data-3 {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 23px;
+    width: auto;
+    background-color: #12dfac0e;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.summary .data-3 h4 {
+    color: #18d1a3;
+    padding-right: 70px;
+    font-weight: 100;
+    letter-spacing: 0.50px;
+}
+
+.summary .data-3 i {
+    padding-right: 15px;
+    font-weight: 100;
+}
+
+.summary .data-3 .marks {
+    font-weight: 600;
+}
+
+.summary .data-3 .marks .first-no {
+    color: black;
+}
+
+.summary .data-3 .marks  .second-no {
+    color: rgb(148, 148, 148);
+}
+
+
+/* data 4 */
+
+.summary .data-4 {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 23px;
+    width: auto;
+    background-color: rgba(25, 45, 228, 0.048);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.summary .data-4 h4 {
+    color: rgb(1, 20, 190);
+    padding-right: 70px;
+    font-weight: 100;
+    letter-spacing: 0.50px;
+}
+
+.summary .data-4 i {
+    padding-right: 15px;
+    font-weight: 100;
+}
+
+.summary .data-4 .marks {
+    font-weight: 600;
+}
+
+.summary .data-4 .marks .first-no {
+    color: black;
+}
+
+.summary .data-4 .marks  .second-no {
+    color: rgb(148, 148, 148);
+}
+
+
+/* Button */
+
+.summary .wrapper button {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #303B59;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
